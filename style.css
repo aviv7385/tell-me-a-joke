@@ -1,0 +1,76 @@
+/* avo.gif from https://giphy.com/gifs/animation-3d-3oz8xRsCP14cAnCtIA */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Concert One', cursive;
+    margin: 0;
+    background: #FCD0AE;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer p {
+    padding-left: 30px;
+}
+
+.container {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('./assets/gifs/avo.gif');
+    background-size: 50%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+button {
+    font-family: 'Concert One', cursive;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background-color: #68BEE3;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    filter: brightness(95%);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    cursor: default;
+    filter: brightness(70%);
+}
+
+/* media query for tablet or smaller */
+@media screen and (max-width:1000px) {
+    .container {
+        background-size: cover;
+        background-position: center center;    
+    }
+    button {
+        box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+        opacity: 0.95;
+    }
+}
