@@ -30,7 +30,7 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url('./assets/gifs/avo.gif');
+    background: url('assets/gifs/avo.gif');
     background-size: 50%;
     background-position: left center;
     background-repeat: no-repeat;
