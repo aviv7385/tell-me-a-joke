@@ -21,10 +21,11 @@ footer img {
 
 footer p {
     padding-left: 30px;
+    padding-top: 20px;
 }
 
 .container {
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     justify-content: center;
